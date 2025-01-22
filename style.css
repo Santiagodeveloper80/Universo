@@ -1,5 +1,54 @@
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    background-color: rgb(163, 163, 163);
+}
+
+header{
+    background-color: black;
+}
+
+.capa{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+header nav{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+header nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.direita{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 36px;
+    margin-left: 30px;
+}
+
+section p{
+    width: 750px;
+
+}
+
