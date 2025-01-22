@@ -39,16 +39,42 @@ h2{
     text-align: center;
 }
 
+.h-d{
+    color: black;
+    padding: 20px 0;
+}
+
+.h-e{
+    padding: 20px;
+}
+
+.fundo-d{
+    background-color: #fcfcfc;
+}
+
 .direita{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 36px;
-    margin-left: 30px;
+}
+
+.esquerda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 36px;
 }
 
 section p{
     width: 750px;
+}
 
+.espaco-d{
+    padding-left: 100px;
+}
+
+.espaco-e{
+    padding-right: 100px;
 }
 
