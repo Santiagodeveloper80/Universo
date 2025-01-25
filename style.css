@@ -35,7 +35,7 @@ header nav a{
 }
 
 h2{
-    font-size: 50px;
+    font-size: 70px;
     color: #fff;
     text-align: center;
 }
@@ -103,4 +103,69 @@ footer nav a{
     text-decoration: none;
     font-weight: 600;
     font-size: 30px;
+}
+
+.dev{
+    background-color: #434141;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    text-align: center;
+    gap: 10px;
+}
+
+.dev p{
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.logo{
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+.contato{
+    text-align: center;
+    padding: 20px;
+}
+
+.contato a{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#mercurio h2{
+    color: #a17d60;
+}
+
+#venus h2{
+    color: #e3b62e;
+}
+
+#terra h2{
+    color: #0b40a3;
+}
+
+#marte h2{
+    color: #b52525;
+}
+
+#jupiter h2{
+    color: #c94f1b;
+}
+
+#saturno h2{
+    color: #c9861b;
+}
+
+#urano h2{
+    color: #162e59;
+}
+
+#netuno h2{
+    color: #302993;
 }
